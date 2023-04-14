@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body {
+    background-color: #f1f1f1;
+    color: #0f141e;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: #86898f;
+}
+
+.avatar {
+    width: 400px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.info {
+    display: flex;
+}
+.info-text{
+    margin-left: 40px;
+
+}
+
+.info-text h4 {
+    margin-bottom: 20px
+}
+
+.info p {
+    color: #86898f;
+    margin: 0;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 80%;
+    margin: auto;
+
+}
+
+.card {
+    padding: 15px 20px;
+    background: indianred;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.bg-red {
+    background: #ffe5e5;
+}
+
+.bg-green {
+    background: #e5ffe7;
+}
+
+.bg-yellow {
+    background: #f5edca;
+}
+
+.card h2 {
+    margin-bottom: 10px
+}
+
+.list {
+    padding: 0 20px 0 20px;
+}
+
+.list li {
+    color: #86898f;
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(3),
+.table td:nth-child(2), {
+    color: #86898f;
+}
+
+.link-list {
+    padding: 0;
+}
+
+.link-list li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 18px;
+    color: #86898f;
+}
+
+.form-group input {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
